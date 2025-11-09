@@ -60,6 +60,7 @@
         <module>aegis-mfa/aegis-mfa-core</module>
         <module>aegis-mfa/aegis-mfa-totp</module>
         <module>aegis-mfa/aegis-mfa-sms</module>
+        <module>aegis-mfa/aegis-mfa-email</module>
         <module>aegis-spring-boot-starter</module>
         <module>aegis-examples</module>
     </modules>
