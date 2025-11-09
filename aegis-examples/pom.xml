@@ -17,9 +17,7 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>jwt-example</module>
-        <module>oauth2-example</module>
-        <module>apikey-example</module>
+        <module>demo-app</module>
     </modules>
 
 </project>

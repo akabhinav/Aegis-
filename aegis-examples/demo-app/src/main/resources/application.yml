@@ -1,0 +1,51 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: aegis-demo-app
+
+# Aegis Authentication Configuration
+aegis:
+  # JWT Authentication
+  jwt:
+    enabled: true
+    secret-key: demo-secret-key-change-in-production-must-be-at-least-256-bits
+    issuer: aegis-demo
+    audience: aegis-demo-api
+
+  # API Key Authentication
+  apikey:
+    enabled: true
+    header-name: X-API-Key
+    allow-header: true
+    allow-query-parameter: true
+
+  # Basic Authentication
+  basic:
+    enabled: true
+
+  # Public paths (no authentication required)
+  public-paths:
+    - /
+    - /index.html
+    - /login
+    - /login/**
+    - /auth/**
+    - /css/**
+    - /js/**
+    - /health
+    - /api/auth/**
+    - /favicon.ico
+    - /error
+
+# Logging
+logging:
+  level:
+    root: INFO
+    io.aegis: DEBUG
+    io.aegis.demo: DEBUG
+
+# Spring Security (disable default behavior)
+spring.security.user.name: admin
+spring.security.user.password: admin
