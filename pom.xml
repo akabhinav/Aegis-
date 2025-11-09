@@ -58,6 +58,7 @@
         <module>aegis-session</module>
         <module>aegis-webauthn</module>
         <module>aegis-mfa/aegis-mfa-core</module>
+        <module>aegis-mfa/aegis-mfa-totp</module>
         <module>aegis-spring-boot-starter</module>
         <module>aegis-examples</module>
     </modules>
