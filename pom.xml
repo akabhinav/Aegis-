@@ -56,6 +56,8 @@
         <module>aegis-mtls</module>
         <module>aegis-saml</module>
         <module>aegis-session</module>
+        <module>aegis-webauthn</module>
+        <module>aegis-mfa/aegis-mfa-core</module>
         <module>aegis-spring-boot-starter</module>
         <module>aegis-examples</module>
     </modules>
